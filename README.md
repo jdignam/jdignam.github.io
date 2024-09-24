@@ -14,5 +14,4 @@ I go to the gym four times a week, for 1-2 hours at a time, play video games fai
 
 ## Websites I recommend
 [Youtube](www.youtube.com) - I watch a fair amount of youtube for entertainment purposes, educational reasons, and so forth.
-
 [Coursera](https://www.coursera.org/) - Coursera features a lot of education courses that offer certificates upon completion.
