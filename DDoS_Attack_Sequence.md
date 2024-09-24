@@ -4,9 +4,11 @@ sequenceDiagram
 Actor Attacker
 Attacker->>Botnet: Controls botnet devices and uses them to target webservers.
 Botnet->>Webserver: Botnet devices overload webservers with malicious traffic.
+Botnet-->>Webserver: HTTP spam requests
+Botnet-->>Webserver: ICMP packets
 participant Webserver
-Webserver->>Firewalls: Overloaded by traffic, servers slow down or crash.
-Firewalls<<-->>Webserver: Traffic filtered, analyzed and monitored, and blocks malicious IPs.
+Webserver->>+Firewalls: Overloaded by traffic, servers slow down or crash.
+Firewalls<<-->>-Webserver: Traffic filtered, analyzed and monitored, and blocks malicious IPs.
 ```
 ## How do DDoS attacks work?
 1. Attack is initiated by threat actors who commands botnets to begin the DDoS attack.
